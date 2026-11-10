@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- تحديد لغة الموقع واتجاه النص -->
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- عشان الموقع يضبط على شاشات الجوال -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موسوعة BMW | الأداء المطلق</title>
+    <!-- ربط ملف الـ CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- الهيدر والناف بار -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">BMW <span>إكسبلور</span></h1>
+            <ul class="nav-links">
+                <li><a href="#history">التاريخ</a></li>
+                <li><a href="#models">فئات السيارات</a></li>
+                <li><a href="#embedded">الأنظمة المدمجة</a></li>
+                <li><a href="#resources">روابط إرشادية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم الواجهة الرئيسي -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h2>متعة القيادة المطلقة</h2>
+            <p>دليلك الشامل لمعرفة كل شيء عن سيارات بي إم دبليو، من المحركات الميكانيكية الجبارة إلى الأنظمة المدمجة
+                الذكية.</p>
+        </div>
+    </section>
+
+    <!-- قسم التاريخ -->
+    <section id="history" class="content-section">
+        <h2>تاريخ الأسطورة البافارية</h2>
+        <!-- هنا استخدمت article عشان النص عبارة عن مقال -->
+        <article>
+            <p>تأسست الشركة البافارية لصناعة المحركات (Bayerische Motoren Werke) في عام 1916. بدأت بصناعة محركات
+                الطائرات، ثم تحولت إلى الدراجات النارية، وأخيراً السيارات التي غيرت مفهوم القيادة الرياضية الفاخرة حول
+                العالم.</p>
+        </article>
+    </section>
+
+    <!-- قسم الفئات بنظام الجريد -->
+    <section id="models" class="content-section bg-light">
+        <h2>أنواع وفئات BMW</h2>
+        <div class="grid-container">
+            <!-- كرت الفئات الأساسية -->
+            <div class="card">
+                <h3>سيارات السيدان (Series 1-8)</h3>
+                <p>تشمل الفئة الثالثة (الأكثر مبيعاً)، والخامسة (رجال الأعمال)، والسابعة (الفخامة المطلقة).</p>
+            </div>
+            <!-- كرت سيارات الـ X -->
+            <div class="card">
+                <h3>فئة X (الدفع الرباعي)</h3>
+                <p>تبدأ من X1 المدمجة وصولاً إلى X7 العائلية الفاخرة، وتتميز بنظام الدفع الذكي xDrive.</p>
+            </div>
+            <!-- كرت الـ M Power -->
+            <div class="card m-power">
+                <h3>فئة M Power</h3>
+                <p>حيث تلتقي هندسة حلبات السباق مع الشوارع العامة. أداء عالي، محركات تيربو، وتعديلات ديناميكية.</p>
+            </div>
+            <!-- كرت السيارات الكهربائية -->
+            <div class="card">
+                <h3>فئة i (السيارات الكهربائية)</h3>
+                <p>مستقبل القيادة مع سيارات مثل i4 و iX التي تعتمد كلياً على الطاقة النظيفة والتكنولوجيا المتقدمة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأنظمة المدمجة -->
+    <section id="embedded" class="content-section">
+        <h2>الأنظمة المدمجة في BMW (Embedded Systems)</h2>
+        <article>
+            <p>تعتمد سيارات BMW الحديثة على شبكة معقدة من وحدات التحكم الإلكترونية (ECUs). من أهمها:</p>
+            <ul>
+                <li><strong>نظام iDrive:</strong> العقل المدبر لنظام الترفيه والمعلومات داخل السيارة.</li>
+                <li><strong>وحدة التحكم بالمحرك (DME):</strong> لضبط حقن الوقود، توقيت الصمامات، وإدارة الحرارة.</li>
+                <li><strong>أنظمة مساعدة السائق (ADAS):</strong> رادارات وحساسات وكاميرات مدمجة لمعالجة البيانات بالوقت
+                    الفعلي وتحقيق القيادة شبه الذاتية.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- قسم الروابط والمصادر -->
+    <section id="resources" class="content-section bg-light">
+        <h2>روابط إرشادية ومصادر</h2>
+        <ul class="resources-list">
+            <li><a href="https://www.bmw.com" target="_blank">الموقع الرسمي لشركة BMW العالمية</a></li>
+            <li><a href="https://www.bimmerpost.com/" target="_blank">منتدى Bimmerpost لمالكي وعشاق بي إم دبليو</a></li>
+            <li><a href="https://www.realoem.com/" target="_blank">كتالوج قطع الغيار التفصيلي (RealOEM) - مفيد للصيانة
+                    الميكانيكية</a></li>
+        </ul>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>تم تصميم وتطوير هذا الموقع كامقال ولايغني عن المصادر &copy; <span id="year"></span>
+        </p>
+    </footer>
+
+    <!-- ربط ملف الجافاسكريبت تحت عشان يسرع تحميل الصفحة -->
+    <script src="script.js"></script>
+</body>
+
+</html>
